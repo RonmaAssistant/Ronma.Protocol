@@ -5,7 +5,7 @@ namespace Ronma.Protocol.Interface.Service
 {
     public interface IBusService : IService
     {
-        void Publish(Packet packet);
+        void Publish(ServiceQueue queue, Packet packet);
 
         bool Subscribe(ServiceQueue queue, Func<Packet, bool> processor);
     }
