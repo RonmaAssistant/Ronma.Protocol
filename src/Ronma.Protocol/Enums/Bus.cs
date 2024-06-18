@@ -2,8 +2,8 @@
 {
     public enum ServiceQueue
     {
-        Data,
-        Event,
-        Internal
+        Input,
+        Output,
+        
     }
 }
