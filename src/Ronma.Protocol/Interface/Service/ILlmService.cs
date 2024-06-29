@@ -2,10 +2,10 @@
 
 namespace Ronma.Protocol.Interface.Service
 {
-    public interface ILlm : IService
+    public interface ILlmService : IService
     {
         string Name { get; set; }
         string Prompt { get; set; }
-        EndpointInfo Endpoint { get; set; }
+        LlmEndpoint Endpoint { get; set; }
     }
 }
