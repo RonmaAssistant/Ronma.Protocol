@@ -7,5 +7,7 @@ namespace Ronma.Protocol.Interface.Service
         string Name { get; set; }
         string Prompt { get; set; }
         LlmEndpoint Endpoint { get; set; }
+
+        LlmContent Perform(LlmContent message);
     }
 }
