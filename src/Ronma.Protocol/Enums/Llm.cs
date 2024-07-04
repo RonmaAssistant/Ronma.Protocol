@@ -1,6 +1,6 @@
 ﻿namespace Ronma.Protocol.Enums
 {
-    public enum LlmContentFileType
+    public enum LlmContentPayloadType
     { 
         JPG,
         PNG,
