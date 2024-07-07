@@ -1,6 +1,6 @@
 ﻿namespace Ronma.Protocol.Interface.Service
 {
-    public interface IMemoryService : ICoreService
+    public interface ICoreService : IService
     {
     }
 }

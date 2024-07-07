@@ -3,7 +3,7 @@ using Ronma.Protocol.Structure;
 
 namespace Ronma.Protocol.Interface.Service
 {
-    public interface IBusService : IService
+    public interface IBusService : ICoreService
     {
         void Publish(ServiceQueue queue, Packet packet);
 

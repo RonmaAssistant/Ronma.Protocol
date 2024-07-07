@@ -1,6 +1,6 @@
 ﻿namespace Ronma.Protocol.Interface.Service
 {
-    public class IInsightService
+    public interface IInsightService : ICoreService
     {
     }
 }
