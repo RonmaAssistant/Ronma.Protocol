@@ -2,6 +2,6 @@
 {
     public interface IAssistanceService : IService
     {        
-        void Enroll();
+        
     }
 }
