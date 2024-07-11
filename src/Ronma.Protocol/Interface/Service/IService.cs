@@ -3,5 +3,6 @@
     public interface IService
     {
         void Enroll();
+        void Unenroll();
     }
 }
