@@ -7,6 +7,6 @@ namespace Ronma.Protocol.Interface.Service
     {
         void Publish(ServiceQueue queue, Packet packet);
 
-        bool Subscribe(ServiceQueue queue, Func<Packet, bool> processor);
+        bool Subscribe(ServiceQueue queue, Func<Packet, Task<bool>> processor);
     }
 }
