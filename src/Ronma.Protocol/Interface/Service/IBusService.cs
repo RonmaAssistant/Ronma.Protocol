@@ -5,8 +5,8 @@ namespace Ronma.Protocol.Interface.Service
 {
     public interface IBusService : ICoreService
     {
-        void Publish(BusChannel channel, Packet packet);
+        void Publish(string name, BusChannel channel, Packet packet);
 
-        bool Subscribe(BusChannel channel, Func<Packet, Task<bool>> processor);
+        bool Subscribe(string name, BusChannel channel, Func<Packet, Task<bool>> processor);
     }
 }
