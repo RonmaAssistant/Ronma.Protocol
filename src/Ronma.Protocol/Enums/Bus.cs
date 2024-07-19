@@ -1,6 +1,6 @@
 ﻿namespace Ronma.Protocol.Enums
 {
-    public enum ServiceQueue
+    public enum BusChannel
     {
         Input,
         Output,
