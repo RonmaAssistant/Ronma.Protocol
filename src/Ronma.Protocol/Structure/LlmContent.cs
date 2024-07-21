@@ -2,7 +2,7 @@
 {
     public class LlmContent
     {
-        public string Text { get; set; }
+        public string Message { get; set; }
 
         public List<LlmContentPayload> Payloads { get; set; }        
     }
