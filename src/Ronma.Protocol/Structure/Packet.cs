@@ -6,6 +6,8 @@
 
         public string Command { get; set; }
 
+        public string Sender { get; set; }
+
         public List<byte[]> Args { get; set; }
 
     }
