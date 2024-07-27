@@ -4,6 +4,11 @@ namespace Ronma.Protocol.Structure
 {
     public record ServiceInfo
     {
+        public ServiceInfo() 
+        {
+        
+        }
+
         public ServiceInfo(BusChannel channel, string service, string command, string desc)
         { 
             Channel = channel;
