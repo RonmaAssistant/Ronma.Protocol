@@ -29,11 +29,11 @@ namespace Ronma.Protocol.Structure
 
         public string Sender { get; set; }
 
-        public string TraceId { get; set; } = CreateUuid();
+        public string TraceId { get; set; }
 
         public string RequestId { get; set; } = CreateUuid();
 
-        public string SessionId { get; set; } = CreateUuid();
+        public string SessionId { get; set; }
 
         public List<byte[]> Args { get; set; } = [];
 
