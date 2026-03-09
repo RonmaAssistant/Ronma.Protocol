@@ -37,6 +37,8 @@ namespace Ronma.Protocol.Structure
 
         public List<byte[]> Args { get; set; } = [];
 
+        public string ReplyTo { get; set; }
+
         public static string CreateUuid()
         {
             var guid = Guid.CreateVersion7();
